@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="work.css" />
+    <script src="work.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="DSC07352.JPG" alt="Logo" class="logo" />
+        <h1>Divyanshu's Web Page</h1>
+
+    </header>
+
+    <nav>
+        <a href="work.html">About</a>
+        <a href="auth.html">Login</a>
+        <a href="tep.html">Temperature Converter</a>
+        <a href="calculator.html">Calculator</a>
+        <a href="tribute.html">Tribute</a>
+        <a href="todo.html">To-Do</a>
+
+    </nav>
+    <section id="converter" class="center">
+        <h2>Temperature Converter</h2>
+        <input type="number" id="tempInput" placeholder="Enter temperature" />
+        <select id="unitSelect">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+        </select>
+        <button onclick="convertTemp()">Convert</button>
+        <p id="result"></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Divyanshu's web Page. Built with HTML, CSS, and JavaScript.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>authForm</title>
+    <link rel="stylesheet" href="work.css" />
+    <script src="work.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="DSC07352.JPG" alt="Logo" class="logo" />
+        <h1>Divyanshu's Web Page</h1>
+
+    </header>
+
+    <nav>
+        <a href="work.html">About</a>
+        <a href="auth.html">Login</a>
+        <a href="tep.html">Temperature Converter</a>
+        <a href="calculator.html">Calculator</a>
+        <a href="tribute.html">Tribute</a>
+        <a href="todo.html">To-Do</a>
+
+    </nav>
+    <section id="auth" class="center">
+        <h2>🔐 Simple Login System</h2>
+        <div id="authForm">
+            <input type="text" id="username" placeholder="Username" /><br />
+            <input type="password" id="password" placeholder="Password" /><br />
+            <button onclick="register()">Register</button>
+            <button onclick="login()">Login</button>
+        </div>
+        <div id="securedContent" style="display:none;">
+            <h3>Welcome to the secured page!</h3>
+            <p>Only visible after successful login.</p>
+            <button onclick="logout()">Logout</button>
+        </div>
+    </section>
+    <footer>
+        <p>© 2025 Divyanshu's web Page. Built with HTML, CSS, and JavaScript.</p>
+    </footer>
+</body>
+
+</html>

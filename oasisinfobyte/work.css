@@ -1,0 +1,222 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration:dashed;
+    font-weight: bold;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+
+
+}
+
+section {
+    background: #fffffd;
+    border: 1px solid #221f1f;
+    padding: 50px;
+    box-shadow: 0 20px 30px rgb(0, 0, 0);
+    margin: 20px auto;
+    max-width: 1000px;
+
+}
+
+.section:hover {
+
+    box-shadow: 0 30px 50px rgb(241, 175, 175);
+}
+
+.center {
+    text-align: center;
+}
+
+img.profile {
+    width: 150px;
+    border-radius: 50%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.logo {
+    height: 55px;
+    /* Adjust as needed */
+}
+
+input,
+select,
+button {
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+
+#result {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.calculator {
+    display: inline-block;
+    background: #fffdfd;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: right;
+    border-radius: 5px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    gap: 10px;
+    justify-content: center;
+}
+
+.grid button {
+    padding: 15px;
+    font-size: 1em;
+    background-color: #66656599;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.grid button:hover {
+    background-color: #beadad;
+}
+
+.equal-button {
+    grid-column: span 4;
+    background-color: #22ae27;
+    color: rgb(11, 11, 11);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+
+}
+
+ul {
+    padding-left: 20px;
+}
+
+/* To-Do App Styles */
+#todo input {
+    width: 60%;
+    max-width: 400px;
+}
+
+#todo button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+#todo li {
+    margin: 10px 0;
+    background: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    list-style-type: none;
+}
+
+#todo .timestamp {
+    font-size: 0.8em;
+    color: #666;
+}
+
+#todo .completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+#todo li button {
+    margin-left: 5px;
+}
+
+/* Login System Styles */
+#auth input {
+    width: 60%;
+    max-width: 300px;
+    margin: 5px auto;
+}
+
+#auth button {
+    margin: 10px 5px;
+}
+
+body {
+    background-image: url(https://th.bing.com/th/id/R.be5169fe358cddf9251f1007b97d4cc8?rik=%2bCN4%2bGOBkw1ESw&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f07%2fPeaceful-Desktop-Backgrounds.jpeg&ehk=23WIQbDrBOqACC%2bGzzRj9h%2fhZ4iGgWR0kDGAEM%2bHGjk%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body>footer {
+    margin-top: auto;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #333;
+}
